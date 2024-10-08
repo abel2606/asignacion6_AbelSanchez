@@ -1,0 +1,114 @@
+
+img{
+    height: 300px;
+}
+
+a:hover{
+    color: red;
+}
+
+a:active{
+    color: green;
+}
+
+a:visited{
+    color: purple;
+}
+a:first-of-type{
+    text-decoration: none;
+    font-size: 1.5rem;   
+}
+
+
+a:focus {
+    border: 3px solid yellow;
+    outline: none;
+}
+
+input:read-write {
+    background-color: lightgray;
+    border: 1px solid gray;
+    color: darkblue;
+    font-weight: bold;
+}
+
+input:required {
+    background-color: lightpink;
+    color: darkblue;
+    font-weight: bold;
+}
+
+input[type="email"]:valid {
+    border: 2px solid green;
+    background-color: #e6ffe6;
+    color: darkgreen;
+}
+
+input:out-of-range {
+    border: 2px solid red;
+    background-color: #ffe6e6;
+    color: darkred;
+}
+
+input:in-range {
+    border: 2px solid green;
+    background-color: #e6ffe6;
+    color: darkgreen;
+}
+
+p:lang(es) {
+    font-family: 'Arial', sans-serif;
+    color: darkblue;
+}
+
+p:lang(en) {
+    font-family: 'Georgia', serif;
+    color: darkcyan;
+}
+
+form:last-child{
+    border: 3px solid rgb(195, 255, 0);
+}
+form div:nth-child(2){
+    border: 2px dashed rgba(115, 255, 0, 0.899);
+}
+
+form div:nth-last-child(2){
+    border: 2px dashed rgb(0, 229, 255);
+}
+
+:not(div){
+    background-color: rgba(196, 217, 255, 0.104);
+}
+.albumes{
+    margin: auto;
+    padding: 20px;
+    background-color: lightblue;
+    display: flex; 
+}
+
+.album{
+    margin-left: 30px;
+    display: block;
+}
+
+p::after{
+    content: "||";
+}
+
+p::before{
+    content: "||";
+}
+
+p::first-letter{
+    color: red;
+}
+
+p::first-line{
+    text-decoration: overline;
+}
+
+p::selection{
+    background-color: yellow;
+}
+
